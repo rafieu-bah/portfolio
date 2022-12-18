@@ -169,18 +169,20 @@
       <li>Phone: <b>+23232574141</b></li>
     </ul>
   </div>
-  <form>
+
+  <form action="https://formspree.io/f/mjvdbyrz"
+  method="POST">
     <div class="form-controls">
       <label for="name">Name</label>
-      <input id="name" type="text" required>
+      <input id="name" name="name" required>
     </div>
     <div class="form-controls">
       <label for="email">Email</label>
-      <input id="email" type="text" required>
+      <input id="email" type="email" required>
     </div>
     <div class="form-controls">
       <label for="message">message</label>
-     <textarea id="message"cols="10" rows="5" required></textarea>
+     <textarea id="message"cols="10" rows="5" type="text" required></textarea>
     </div>
 
     <button class="contact-btn" type="submit">send message</button>
